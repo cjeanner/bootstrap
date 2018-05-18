@@ -1,0 +1,40 @@
+---
+- name: install bunch of packages
+  become: true
+  package:
+    name: "{{item}}"
+    state: present
+  with_items:
+     - dejavu-fonts-common
+     - dejavu-sans-fonts
+     - dejavu-sans-mono-fonts
+     - dejavu-serif-fonts
+     - docker
+     - firefox
+     - gimp
+     - hamster-time-tracker
+     - hexchat
+     - i3
+     - i3lock
+     - keepassxc
+     - lightdm
+     - network-manager-applet
+     - NetworkManager-openvpn
+     - NetworkManager-openvpn-gnome
+     - plymouth-theme-breeze
+     - plymouth-theme-charge
+     - plymouth-theme-fade-in
+     - plymouth-theme-hot-dog
+     - plymouth-theme-script
+     - plymouth-theme-solar
+     - plymouth-theme-spinfinity
+     - plymouth-theme-spinner
+     - python2-ansible-lint
+     - python2-ansible-review
+     - screen
+     - thunderbird
+     - tmate
+     - tmux
+     - vim
+     - zsh
+

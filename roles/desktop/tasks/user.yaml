@@ -1,0 +1,6 @@
+---
+- name: set shell for cjeanner
+  become: true
+  user:
+    name: cjeanner
+    shell: /usr/bin/zsh
