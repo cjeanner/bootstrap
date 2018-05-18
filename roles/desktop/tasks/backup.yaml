@@ -1,0 +1,9 @@
+---
+- name: copy borg script
+  become: true
+  copy:
+    dest: /etc/cron.hourly/backup
+    group: root
+    mode: 0555
+    owner: root
+    remote_src: /home/cjeanner/work/backup
