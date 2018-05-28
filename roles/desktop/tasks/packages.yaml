@@ -10,6 +10,7 @@
      - dejavu-sans-mono-fonts
      - dejavu-serif-fonts
      - docker
+     - docker-zsh-completion
      - firefox
      - gimp
      - hamster-time-tracker
@@ -21,6 +22,7 @@
      - network-manager-applet
      - NetworkManager-openvpn
      - NetworkManager-openvpn-gnome
+     - nmap
      - plymouth-theme-breeze
      - plymouth-theme-charge
      - plymouth-theme-fade-in
@@ -37,4 +39,3 @@
      - tmux
      - vim
      - zsh
-
